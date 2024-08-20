@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p, a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos de las imágenes */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos del botón de eliminar */
+.delete-btn {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos del botón de editar */
+.edit-btn {
+  background-color: #4d4dff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos del mensaje de éxito */
+.success-message {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilos del mensaje de error */
+.error-message {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}

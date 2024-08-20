@@ -1,0 +1,35 @@
+CREATE DATABASE congreso;
+
+USE congreso;
+
+CREATE TABLE `administradores` (
+  `usuario` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+);
+
+
+INSERT INTO `administradores` (`usuario`, `password`) VALUES
+('admin1', '12345');
+
+
+CREATE TABLE `estudiantes` (
+  `usuario` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
+  `apellidos` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `escuela` varchar(100) NOT NULL,
+  `transporte` varchar(100) NOT NULL,
+  `comida` varchar(100) NOT NULL,
+  `hospedaje` varchar(100) NOT NULL
+);
+
+
+INSERT INTO `estudiantes` (`usuario`, `password`, `nombre`, `apellidos`, `email`, `escuela`, `transporte`, `comida`, `hospedaje`) VALUES
+('jose1', '12345', 'Jose', 'Jose', 'jj@gmail.com', 'URSE', 'Sin transporte', 'Sin comida', 'Sin hospedaje');
+
+ALTER TABLE `administradores`
+  ADD PRIMARY KEY (`usuario`);
+
+ALTER TABLE `estudiantes`
+  ADD PRIMARY KEY (`usuario`);
